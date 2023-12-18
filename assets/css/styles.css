@@ -382,6 +382,11 @@ a:hover,a:hover p,a:hover svg{
     color: white !important;
 }
 
+/* costumer */
+#costumer{
+    overflow-x: hidden;
+}
+
 /* footer */
 footer {
     background: #f9f9f9;

@@ -44,20 +44,3 @@ var costumer = new Swiper(".costumer", {
     prevEl: ".swiper-button-prev",
   },
 });
-
-// animation
-
-ScrollReveal().reveal('.top', {
-  duration: 2000,
-  origin: 'top',
-  distance: '100px',
-  delay: 500,
-  easing: 'ease-out'
-});
-ScrollReveal().reveal('.bottom', {
-  duration: 2000,
-  origin: 'bottom',
-  distance: '100px',
-  delay: 500,
-  easing: 'ease-out'
-});
