@@ -26,6 +26,10 @@ body {
 a {
     cursor: pointer;
     text-decoration: none;
+    transition: all .4s;
+}
+.transition{
+    transition: all .4s;
 }
 
 /* object fit */
@@ -227,27 +231,24 @@ a {
 .swiper-button-next::after {
     font-size: 26px;
 }
-
-.swiper-button-next {
+.swiper-button-next1,.swiper-button-prev1 {
     right: auto;
+    top: 400px;
+    color: #56B676;
+    font-weight: bold;
+    transition: all .4s;
+}
+.swiper-button-next1 {
     left: 93px;
-    top: 250px;
-    color: #56B676;
-    font-weight: bold;
-    transition: all .4s;
+    position: absolute!important;
 }
-
-.swiper-button-prev {
-    right: auto;
+.swiper-button-prev1 {
     left: 0 !important;
-    top: 250px;
-    color: #56B676;
-    font-weight: bold;
-    transition: all .4s;
+    position: absolute!important;
 }
 
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
+.swiper-button-next1:hover,
+.swiper-button-prev1:hover {
     background-color: #56B676 !important;
     color: white;
 }
@@ -271,6 +272,10 @@ a {
 #costumer .swiper-button-next {
     top: -73px;
     transform: rotate(270deg);
+}
+#costumer .swiper-button-prev::after,
+#costumer .swiper-button-next::after {
+    font-size: 26px;
 }
 
 /* global styles */
@@ -296,6 +301,20 @@ a {
     top: 9px;
     position: relative;
     right: -6px;
+}
+svg,.socials a svg,.socials a svg path{
+    transition: all .4s;
+}
+a:hover,a:hover p,a:hover svg{
+    color: #143960!important;
+    stroke: #143960!important;
+}
+.socials a:hover svg{
+    border: 1px solid #143960;
+    stroke: transparent!important;
+}
+.socials a:hover svg path{
+   fill: #143960!important;
 }
 
 /* banner */
@@ -380,12 +399,19 @@ footer img[alt='wave']{
 
 @media only screen and (max-width:1200px) {}
 
-@media only screen and (max-width:992px) {}
+@media only screen and (max-width:992px) {
+    .swiper-button-next1, .swiper-button-prev1 {
+        top: 332px;
+    }
+}
 
 @media only screen and (max-width:768px) {
     .right-side>div::after,
 .left-side>div::after {
     display: none;
+}
+.swiper-button-next1, .swiper-button-prev1 {
+    top: 672px;
 }
 }
 
@@ -399,6 +425,23 @@ footer img[alt='wave']{
     .w-sm-320{
         width: 320px;
     }
+    .fs-sm-20{
+        font-size: 20px;
+    }
+    .swiper-button-next1, .swiper-button-prev1 {
+        top: 610px;
+      }
+      #costumer .swiper-button-next {
+        top: 12px;
+        transform: rotate(360deg);
+        right: -59px;
+      }
+      #costumer .swiper-button-prev {
+        top: 12px;
+        transform: rotate(360deg);
+        left: -59px!important;
+        right: auto;
+      }
 }
 
 @media only screen and (max-width:400px) {}
