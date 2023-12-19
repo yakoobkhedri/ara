@@ -295,6 +295,10 @@ a {
     text-align: justify;
 }
 
+.rtl{
+    direction: rtl;
+}
+
 .dropdown-toggle::after {
     content: url('../img/Arrow\ -\ Down\ 6.png');
     border-top: 0;
@@ -416,10 +420,13 @@ footer img[alt='wave']{
     display: none;
 }
 .swiper-button-next1, .swiper-button-prev1 {
-    top: 672px;
+    width: 58px;
+    height: 58px;
+}
+.swiper-button-next1 {
+    left: 65px;
 }
 }
-
 @media only screen and (max-width:576px) {
     .swiper.costumer{
         height: auto;
@@ -434,7 +441,7 @@ footer img[alt='wave']{
         font-size: 20px;
     }
     .swiper-button-next1, .swiper-button-prev1 {
-        top: 610px;
+        top: 254px;
       }
       #costumer .swiper-button-next {
         top: 12px;

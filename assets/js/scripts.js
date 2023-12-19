@@ -3,6 +3,7 @@ var blog = new Swiper(".blog", {
   loop: true,
   autoplay: {
     delay: 5000,
+    disableOnInteraction: false,
   },
   slidesPerView: 1,
   spaceBetween: 36,
@@ -19,6 +20,7 @@ var comment = new Swiper(".comment", {
   loop: true,
   autoplay: {
     delay: 5000,
+    disableOnInteraction: false,
   },
   slidesPerView: 1,
   spaceBetween: 36,
@@ -31,6 +33,7 @@ var costumer = new Swiper(".costumer", {
   loop: true,
   autoplay: {
     delay: 5000,
+    disableOnInteraction: false,
   },
   slidesPerView: 3,
   spaceBetween: 36,
@@ -44,3 +47,6 @@ var costumer = new Swiper(".costumer", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+// aos
+AOS.init();

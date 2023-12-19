@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  <link rel='stylesheet' type='text/css' media='screen' href='assets/css/aos.css'>
   <link rel='stylesheet' type='text/css' media='screen' href='assets/css/styles.css'>
   <title>صفحه اصلی</title>
 </head>
@@ -81,7 +82,7 @@
   <main>
 
     <!-- banner -->
-    <section id="banner" class="d-flex align-items-center justify-content-center">
+    <section id="banner" class="d-flex align-items-center justify-content-center" data-aos="fade-up">
       <div class="py-4 bg-main w-100 position-relative z-10">
         <p class="mb-0 fs-32 fs-sm-20 font-bold text-white text-center">آرا بستر هوشمند تسهیل گر، چابک و امن</p>
       </div>
@@ -93,7 +94,7 @@
         <h5 class="text-center border-bottom font-bold border-2 border-dark w-112 mx-auto py-2">محصولات</h5>
         <div class="d-flex flex-column flex-md-row justify-content-center gap-md-5 mt-5">
           <div class="right-side">
-            <div>
+            <div data-aos="flip-down">
               <h6 class="fw-bold text-center text-dark">نرم افزار جامع سازمانی ویدا </h6>
               <img alt="product" src="assets/img/product1.png" class="img-fluid mx-auto mx-md-0 d-block">
               <div class="d-flex align-items-center justify-content-between mt-2 px-3">
@@ -101,7 +102,7 @@
                 <a class="fs-14 text-green text-decoration-underline">درخواست دمو</a>
               </div>
             </div>
-            <div class="mt-md-5 pt-md-5">
+            <div class="mt-md-5 pt-md-5" data-aos="flip-up">
               <h6 class="fw-bold text-center text-dark mt-5">نرم افزار مدیریت اقدامات تکام </h6>
               <img alt="product" src="assets/img/product2.png" class="img-fluid mx-auto mx-md-0 d-block">
               <div class="d-flex align-items-center justify-content-between mt-2 px-3">
@@ -109,7 +110,7 @@
                 <a class="fs-14 text-green text-decoration-underline">داشبورد سازی سایت</a>
               </div>
             </div>
-            <div class="mt-md-5 pt-md-5">
+            <div class="mt-md-5 pt-md-5" data-aos="fade-down">
               <h6 class="fw-bold text-center text-dark mt-5">نرم افزار فرایند کاوی اسراء</h6>
               <img alt="product" src="assets/img/product3.png" class="img-fluid mx-auto mx-md-0 d-block">
               <div class="d-flex align-items-center justify-content-between mt-2 px-3">
@@ -120,7 +121,7 @@
           </div>
           <div class="w-2 bg-gray mt-5 d-none d-md-block"></div>
           <div class="left-side">
-            <div class="mt-md-5 pt-md-5">
+            <div class="mt-md-5 pt-md-5" data-aos="fade-up">
               <h6 class="fw-bold text-center text-dark mt-5 pt-md-5">سامانه جامع یکپارچه فام </h6>
               <img alt="product" src="assets/img/product4.png" class="img-fluid mx-auto mx-md-0 d-block">
               <div class="d-flex align-items-center justify-content-between mt-2 px-3">
@@ -128,7 +129,7 @@
                 <a class="fs-14 text-green text-decoration-underline">لندینگ پیج</a>
               </div>
             </div>
-            <div class="mt-md-5 pt-md-5">
+            <div class="mt-md-5 pt-md-5" data-aos="fade-down">
               <h6 class="fw-bold text-center text-dark mt-5">نرم افزار مدیریت رخدادها </h6>
               <img alt="product" src="assets/img/product5.png" class="img-fluid mx-auto mx-md-0 d-block">
               <div class="d-flex align-items-center justify-content-between mt-2 px-3">
@@ -136,7 +137,7 @@
                 <a class="fs-14 text-green text-decoration-underline">داشبورد سازی سایت</a>
               </div>
             </div>
-            <div class="mt-md-5 pt-md-5">
+            <div class="mt-md-5 pt-md-5" data-aos="fade-up">
               <h6 class="fw-bold text-center text-dark mt-5">نرم افزار مدیریت انجمن ها </h6>
               <img alt="product" src="assets/img/product6.png" class="img-fluid mx-auto mx-md-0 d-block">
               <div class="d-flex align-items-center justify-content-between mt-2 px-3">
@@ -150,12 +151,92 @@
     </section>
 
     <!-- blog -->
-    <section id="blog" class="mt-5 pt-4 pb-5">
+    <section id="blog" class="mt-5 pt-4 pb-5" data-aos="fade-down">
       <div class="container">
         <h5 class="text-center border-bottom font-bold border-2 border-dark w-112 mx-auto py-2">مقالات</h5>
         <!-- swiper -->
         <div class="swiper blog mt-5 py-5 px-2 w-100">
           <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="bg-white rounded-10 shadow-blog border p-3">
+                <h6 class="text-dark fw-bold mt-3">مقالات بخش فرایند ها</h6>
+                <img alt="blog" src="assets/img/blog.png" class="w-100 img-fluid rounded-4 mt-3">
+                <p class="mb-0 fs-14 text-dark text-justify mt-2">مهارت های خودآگاهی کافی را به دست آورید تا نسبت به...
+                </p>
+                <div class="d-flex align-items-center justify-content-between mt-3 mb-4">
+                  <div class="d-flex align-items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M16.4174 2.603C16.3715 2.26247 16.0819 2 15.7314 2C15.349 2 15.0391 2.31236 15.0391 2.69767V3.46877H8.96859V2.69767L8.96227 2.603C8.91643 2.26247 8.62678 2 8.27629 2C7.89394 2 7.58398 2.31236 7.58398 2.69767V3.48606C4.74674 3.68129 3 5.51951 3 8.48554V16.9038C3 20.087 4.95834 21.9998 8.09625 21.9998H15.9036C19.0453 21.9998 20.9999 20.119 20.9999 16.9742V8.48554C21.009 5.51818 19.2675 3.6804 16.4237 3.48593V2.69767L16.4174 2.603ZM15.0391 4.86428V5.75886L15.0454 5.85354C15.0912 6.19407 15.3809 6.45654 15.7314 6.45654C16.1137 6.45654 16.4237 6.14418 16.4237 5.75886V4.88478C18.4931 5.05644 19.6221 6.30216 19.6155 8.48356V8.88281H4.38477V8.4857C4.38477 6.30606 5.51952 5.05777 7.58398 4.88501V5.75886L7.5903 5.85354C7.63615 6.19407 7.9258 6.45654 8.27629 6.45654C8.65864 6.45654 8.96859 6.14418 8.96859 5.75886V4.86428H15.0391ZM4.38477 10.2782V16.904C4.38477 19.3066 5.71367 20.6046 8.09641 20.6046H15.9038C18.2947 20.6046 19.6155 19.3337 19.6155 16.9743L19.6155 10.2782H4.38477ZM16.8014 13.2211C16.8014 12.8358 16.4914 12.5234 16.1091 12.5234L16.0066 12.5298C15.6687 12.576 15.4082 12.8679 15.4082 13.2211C15.4082 13.6064 15.7182 13.9188 16.1091 13.9188L16.203 13.9124C16.5409 13.8662 16.8014 13.5743 16.8014 13.2211ZM12.0134 12.5234C12.3957 12.5234 12.7057 12.8358 12.7057 13.2211C12.7057 13.5743 12.4452 13.8662 12.1073 13.9124L12.0134 13.9188C11.6225 13.9188 11.3125 13.6064 11.3125 13.2211C11.3125 12.8679 11.573 12.576 11.9109 12.5298L12.0134 12.5234ZM8.60019 13.2211C8.60019 12.8358 8.29024 12.5234 7.90789 12.5234L7.80539 12.5298C7.46748 12.576 7.20703 12.8679 7.20703 13.2211C7.20703 13.6064 7.51699 13.9188 7.89934 13.9188L8.00183 13.9124C8.33974 13.8662 8.60019 13.5743 8.60019 13.2211ZM16.1091 16.1406C16.4914 16.1406 16.8014 16.453 16.8014 16.8383C16.8014 17.1915 16.5409 17.4834 16.203 17.5296L16.1091 17.536C15.7182 17.536 15.4082 17.2236 15.4082 16.8383C15.4082 16.4851 15.6687 16.1932 16.0066 16.147L16.1091 16.1406ZM12.7057 16.8383C12.7057 16.453 12.3957 16.1406 12.0134 16.1406L11.9109 16.147C11.573 16.1932 11.3125 16.4851 11.3125 16.8383C11.3125 17.2236 11.6225 17.536 12.0134 17.536L12.1073 17.5296C12.4452 17.4834 12.7057 17.1915 12.7057 16.8383ZM7.90789 16.1406C8.29024 16.1406 8.60019 16.453 8.60019 16.8383C8.60019 17.1915 8.33974 17.4834 8.00183 17.5296L7.89934 17.536C7.51699 17.536 7.20703 17.2236 7.20703 16.8383C7.20703 16.4851 7.46748 16.1932 7.80539 16.147L7.90789 16.1406Z"
+                        fill="#979797" />
+                    </svg>
+                    <p class="mb-0 text-muted fs-14">2 هفته پیش</p>
+                  </div>
+                  <div class="d-flex align-items-center gap-2">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_1_199)">
+                        <path
+                          d="M12 22L8.25 18.2H5.75C4.75544 18.2 3.80161 17.7996 3.09835 17.087C2.39509 16.3744 2 15.4078 2 14.4V6.8C2 5.79218 2.39509 4.82563 3.09835 4.11299C3.80161 3.40036 4.75544 3 5.75 3H18.25C19.2446 3 20.1984 3.40036 20.9017 4.11299C21.6049 4.82563 22 5.79218 22 6.8V14.4C22 15.4078 21.6049 16.3744 20.9017 17.087C20.1984 17.7996 19.2446 18.2 18.25 18.2H15.75L12 22Z"
+                          stroke="#979797" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M7 8H17" stroke="#979797" stroke-width="1.5" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                        <path d="M7 13H15" stroke="#979797" stroke-width="1.5" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1_199">
+                          <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <p class="mb-0 text-muted fs-14">52 نظر</p>
+                  </div>
+                </div>
+                <a
+                  class="d-flex align-items-center justify-content-center transition text-main fw-bold rounded-8 blogLink h-48">مطالعه
+                  کامل مقاله</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="bg-white rounded-10 shadow-blog border p-3">
+                <h6 class="text-dark fw-bold mt-3">مقالات بخش فرایند ها</h6>
+                <img alt="blog" src="assets/img/blog.png" class="w-100 img-fluid rounded-4 mt-3">
+                <p class="mb-0 fs-14 text-dark text-justify mt-2">مهارت های خودآگاهی کافی را به دست آورید تا نسبت به...
+                </p>
+                <div class="d-flex align-items-center justify-content-between mt-3 mb-4">
+                  <div class="d-flex align-items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M16.4174 2.603C16.3715 2.26247 16.0819 2 15.7314 2C15.349 2 15.0391 2.31236 15.0391 2.69767V3.46877H8.96859V2.69767L8.96227 2.603C8.91643 2.26247 8.62678 2 8.27629 2C7.89394 2 7.58398 2.31236 7.58398 2.69767V3.48606C4.74674 3.68129 3 5.51951 3 8.48554V16.9038C3 20.087 4.95834 21.9998 8.09625 21.9998H15.9036C19.0453 21.9998 20.9999 20.119 20.9999 16.9742V8.48554C21.009 5.51818 19.2675 3.6804 16.4237 3.48593V2.69767L16.4174 2.603ZM15.0391 4.86428V5.75886L15.0454 5.85354C15.0912 6.19407 15.3809 6.45654 15.7314 6.45654C16.1137 6.45654 16.4237 6.14418 16.4237 5.75886V4.88478C18.4931 5.05644 19.6221 6.30216 19.6155 8.48356V8.88281H4.38477V8.4857C4.38477 6.30606 5.51952 5.05777 7.58398 4.88501V5.75886L7.5903 5.85354C7.63615 6.19407 7.9258 6.45654 8.27629 6.45654C8.65864 6.45654 8.96859 6.14418 8.96859 5.75886V4.86428H15.0391ZM4.38477 10.2782V16.904C4.38477 19.3066 5.71367 20.6046 8.09641 20.6046H15.9038C18.2947 20.6046 19.6155 19.3337 19.6155 16.9743L19.6155 10.2782H4.38477ZM16.8014 13.2211C16.8014 12.8358 16.4914 12.5234 16.1091 12.5234L16.0066 12.5298C15.6687 12.576 15.4082 12.8679 15.4082 13.2211C15.4082 13.6064 15.7182 13.9188 16.1091 13.9188L16.203 13.9124C16.5409 13.8662 16.8014 13.5743 16.8014 13.2211ZM12.0134 12.5234C12.3957 12.5234 12.7057 12.8358 12.7057 13.2211C12.7057 13.5743 12.4452 13.8662 12.1073 13.9124L12.0134 13.9188C11.6225 13.9188 11.3125 13.6064 11.3125 13.2211C11.3125 12.8679 11.573 12.576 11.9109 12.5298L12.0134 12.5234ZM8.60019 13.2211C8.60019 12.8358 8.29024 12.5234 7.90789 12.5234L7.80539 12.5298C7.46748 12.576 7.20703 12.8679 7.20703 13.2211C7.20703 13.6064 7.51699 13.9188 7.89934 13.9188L8.00183 13.9124C8.33974 13.8662 8.60019 13.5743 8.60019 13.2211ZM16.1091 16.1406C16.4914 16.1406 16.8014 16.453 16.8014 16.8383C16.8014 17.1915 16.5409 17.4834 16.203 17.5296L16.1091 17.536C15.7182 17.536 15.4082 17.2236 15.4082 16.8383C15.4082 16.4851 15.6687 16.1932 16.0066 16.147L16.1091 16.1406ZM12.7057 16.8383C12.7057 16.453 12.3957 16.1406 12.0134 16.1406L11.9109 16.147C11.573 16.1932 11.3125 16.4851 11.3125 16.8383C11.3125 17.2236 11.6225 17.536 12.0134 17.536L12.1073 17.5296C12.4452 17.4834 12.7057 17.1915 12.7057 16.8383ZM7.90789 16.1406C8.29024 16.1406 8.60019 16.453 8.60019 16.8383C8.60019 17.1915 8.33974 17.4834 8.00183 17.5296L7.89934 17.536C7.51699 17.536 7.20703 17.2236 7.20703 16.8383C7.20703 16.4851 7.46748 16.1932 7.80539 16.147L7.90789 16.1406Z"
+                        fill="#979797" />
+                    </svg>
+                    <p class="mb-0 text-muted fs-14">2 هفته پیش</p>
+                  </div>
+                  <div class="d-flex align-items-center gap-2">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_1_199)">
+                        <path
+                          d="M12 22L8.25 18.2H5.75C4.75544 18.2 3.80161 17.7996 3.09835 17.087C2.39509 16.3744 2 15.4078 2 14.4V6.8C2 5.79218 2.39509 4.82563 3.09835 4.11299C3.80161 3.40036 4.75544 3 5.75 3H18.25C19.2446 3 20.1984 3.40036 20.9017 4.11299C21.6049 4.82563 22 5.79218 22 6.8V14.4C22 15.4078 21.6049 16.3744 20.9017 17.087C20.1984 17.7996 19.2446 18.2 18.25 18.2H15.75L12 22Z"
+                          stroke="#979797" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M7 8H17" stroke="#979797" stroke-width="1.5" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                        <path d="M7 13H15" stroke="#979797" stroke-width="1.5" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_1_199">
+                          <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <p class="mb-0 text-muted fs-14">52 نظر</p>
+                  </div>
+                </div>
+                <a
+                  class="d-flex align-items-center justify-content-center transition text-main fw-bold rounded-8 blogLink h-48">مطالعه
+                  کامل مقاله</a>
+              </div>
+            </div>
             <div class="swiper-slide">
               <div class="bg-white rounded-10 shadow-blog border p-3">
                 <h6 class="text-dark fw-bold mt-3">مقالات بخش فرایند ها</h6>
@@ -322,7 +403,7 @@
     </section>
 
     <!-- comment -->
-    <section class="py-5 my-4">
+    <section class="py-5 my-4" data-aos="fade-up">
       <div class="container">
         <!-- title -->
         <h5 class="text-center border-bottom font-bold border-2 border-dark w-145 mx-auto py-2">دیدگاه مشتریان</h5>
@@ -330,7 +411,7 @@
         <div class="g-4 mt-5 mt-md-0">
           <div>
             <div class="position-relative">
-              <div class="swiper comment">
+              <div dir="rtl" class="swiper comment">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <div class="row align-items-center g-4">
@@ -507,7 +588,7 @@
     </section>
 
     <!-- costumer -->
-    <section id="costumer" class="py-5 my-5">
+    <section id="costumer" class="py-5 my-5" data-aos="fade-down">
       <div class="container mt-5 mt-lg-0">
         <!-- title -->
         <h5 class="text-center border-bottom font-bold border-2 border-dark w-249 mx-auto py-2">به مشتریان شرکت آرا
@@ -516,8 +597,20 @@
         <div class="row align-items-center g-sm-0 g-5 my-5 py-lg-5 mx-0">
           <div class="col-sm-6 col-12 order-1 order-sm-0">
             <div class="position-relative">
-              <div class="swiper costumer h-400">
+              <div dir="rtl" class="swiper costumer h-400">
                 <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide">
+                    <a><img alt="costumer" src="assets/img/Layer_1(1).png" class="img-fluid mx-auto d-block mx-sm-0"></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a><img alt="costumer" src="assets/img/Layer_1(2).png" class="img-fluid mx-auto d-block mx-sm-0"></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a><img alt="costumer" src="assets/img/Layer_1.png" class="img-fluid mx-auto d-block mx-sm-0"></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a><img alt="costumer" src="assets/img/Layer_1(2).png" class="img-fluid mx-auto d-block mx-sm-0"></a>
+                  </div>
                   <div class="swiper-slide">
                     <a><img alt="costumer" src="assets/img/Layer_1(1).png" class="img-fluid mx-auto d-block mx-sm-0"></a>
                   </div>
@@ -656,6 +749,7 @@
   <!-- Swiper JS -->
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/aos.js"></script>
   <script src="assets/js/scripts.js"></script>
 </body>
 
