@@ -62,7 +62,11 @@ a {
 .z-20 {
     z-index: 20;
 }
-
+/* max width */
+.max-w-377{
+    max-width: 377px;
+    width: 100%;
+}
 /* width */
 .w-2 {
     width: 2px;
@@ -137,7 +141,9 @@ a {
 .text-second {
     color: #4834AC;
 }
-
+.text-second2{
+    color: #3D5C7C;
+}
 .text-black {
     color: #000000;
 }
@@ -190,7 +196,6 @@ a {
 .rounded-10 {
     border-radius: 10px;
 }
-
 /* background */
 
 .bg-main {
@@ -320,7 +325,20 @@ a:hover,a:hover p,a:hover svg{
 .socials a:hover svg path{
    fill: #143960!important;
 }
-
+.overlay::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) -5.41%, #143960 108.31%);
+    border-radius: 8px;
+}
+.hover-text:hover p{
+   color: white!important;
+}
+.hover-text:hover svg{
+   stroke: white!important;
+}
 /* banner */
 #banner {
     height: 600px;
