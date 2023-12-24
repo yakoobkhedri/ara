@@ -63,6 +63,10 @@ a {
     z-index: 20;
 }
 /* max width */
+.max-w-304{
+    max-width: 304px;
+    width: 100%;
+}
 .max-w-377{
     max-width: 377px;
     width: 100%;
@@ -124,7 +128,9 @@ a {
 .h-94 {
     height: 94px;
 }
-
+.h-100vh {
+    height: 100vh;
+}
 .h-284 {
     height: 284px;
 }
@@ -342,6 +348,9 @@ a:hover,a:hover p,a:hover svg{
 .hover-text:hover p{
    color: white!important;
 }
+.hover-white:hover{
+    color: white!important;
+}
 .hover-text:hover svg{
    stroke: white!important;
 }
@@ -477,6 +486,9 @@ footer img[alt='wave']{
         transform: rotate(360deg);
         left: -59px!important;
         right: auto;
+      }
+      .h-sm-auto{
+        height: auto;
       }
 }
 
