@@ -132,7 +132,10 @@ a {
 .h-400 {
     height: 400px;
 }
-
+/* line height */
+.lh-28{
+    line-height: 28px;
+}
 /* color */
 .text-main {
     color: #143960 !important;
@@ -172,6 +175,9 @@ a {
 }
 
 /* font size */
+.fs-12 {
+    font-size: 12px;
+}
 .fs-14 {
     font-size: 14px;
 }
