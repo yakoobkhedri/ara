@@ -79,7 +79,9 @@ a {
 .w-32 {
     width: 32px;
 }
-
+.w-48 {
+    width: 48px;
+}
 .w-84 {
     width: 84px;
 }
