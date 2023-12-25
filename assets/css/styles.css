@@ -181,7 +181,10 @@ a {
 .shadow-navigation {
     box-shadow: 0px 4px 16px 0px #00000014;
 }
+.shadow-category {
+    box-shadow: 0px 4px 4px 0px #0000000D;
 
+}
 /* font size */
 .fs-12 {
     font-size: 12px;
@@ -223,7 +226,9 @@ a {
 .bg-green {
     background-color: #0A5F5A;
 }
-
+.bg-green2{
+     background: #56B6760A;
+}
 .bg-gray {
     background-color: #BEC0B9;
 }
@@ -296,7 +301,17 @@ a {
 #costumer .swiper-button-next::after {
     font-size: 26px;
 }
-
+#single-blog .swiper-button-prev::after,#single-blog .swiper-button-next::after {
+    font-size: 24px;
+    color: #979797;
+    font-weight: bold;
+  }
+  #single-blog .swiper-button-next{
+    right: -24px;
+  }
+  #single-blog .swiper-button-prev{
+    left: -24px;
+  }
 /* global styles */
 .outline-none {
     outline: none;
@@ -328,9 +343,10 @@ a {
 svg,.socials a svg,.socials a svg path{
     transition: all .4s;
 }
-a:hover,a:hover p,a:hover svg{
-    color: #143960!important;
-    stroke: #143960!important;
+a:hover,a:hover p,a:hover svg,header ul a.active{
+    color: #56B676!important;
+    stroke: #56B676!important;
+    transition: all .4s;
 }
 .socials a:hover svg{
     border: 1px solid #143960;
@@ -488,6 +504,12 @@ footer img[alt='wave']{
         transform: rotate(360deg);
         left: -59px!important;
         right: auto;
+      }
+      #single-blog .swiper-button-next {
+        right: -6px;
+      }
+      #single-blog .swiper-button-prev {
+        left: -6px;
       }
       .h-sm-auto{
         height: auto;

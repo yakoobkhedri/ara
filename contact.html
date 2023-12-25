@@ -33,7 +33,7 @@
               </svg>
             </a>
             <ul class="dropdown-menu text-end">
-              <li><a class="dropdown-item" href="#">ورود</a></li>
+              <li><a class="dropdown-item" href="login.html">ورود</a></li>
               <li><a class="dropdown-item" href="#">ثبت نام</a></li>
             </ul>
           </div>
@@ -41,19 +41,19 @@
       </div>
       <!-- menu -->
       <ul class="list-unstyled mb-0 pe-0 d-md-flex d-none align-items-center justify-content-center gap-5 py-3 fw-bold">
-        <li><a>محصولات</a></li>
+        <li><a class="text-dark">محصولات</a></li>
         <svg width="1" height="24" viewBox="0 0 1 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <line x1="0.5" y1="0.386963" x2="0.499999" y2="23.6128" stroke="#898989" />
         </svg>
-        <li><a>خدمات</a></li>
+        <li><a class="text-dark">خدمات</a></li>
         <svg width="1" height="24" viewBox="0 0 1 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <line x1="0.5" y1="0.386963" x2="0.499999" y2="23.6128" stroke="#898989" />
         </svg>
-        <li><a>تماس با آرا</a></li>
+        <li><a href="contact.html" class="text-dark active">تماس با آرا</a></li>
         <svg width="1" height="24" viewBox="0 0 1 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <line x1="0.5" y1="0.386963" x2="0.499999" y2="23.6128" stroke="#898989" />
         </svg>
-        <li><a>درباره آرا</a></li>
+        <li><a href="about.html" class="text-dark">درباره آرا</a></li>
       </ul>
       <!-- hamicon -->
       <div class="py-3 d-md-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
@@ -73,10 +73,10 @@
         <div class="offcanvas-body">
           <ul
             class="list-unstyled mb-0 pe-0 d-md-flex flex-column align-items-center justify-content-center gap-5 py-3 fw-bold">
-            <li class="mb-4"><a>محصولات</a></li>
-            <li class="mb-4"><a>خدمات</a></li>
-            <li class="mb-4"><a>تماس با آرا</a></li>
-            <li class="mb-4"><a>درباره آرا</a></li>
+            <li class="mb-4"><a class="text-dark">محصولات</a></li>
+            <li class="mb-4"><a class="text-dark">خدمات</a></li>
+            <li class="mb-4"><a class="text-dark active" href="contact.html">تماس با آرا</a></li>
+            <li class="mb-4"><a class="text-dark" href="about.html">درباره آرا</a></li>
           </ul>
         </div>
       </div>
@@ -90,7 +90,7 @@
     <section class="my-5 mt-0 mt-lg-5 pb-5">
       <div class="container mb-lg-5 pb-lg-5">
        <div class="row g-4 align-items-center">
-        <div class="col-lg-6">
+        <div class="col-lg-6" data-aos="fade-up">
           <div class="position-relative overlay">
             <img alt="contact" src="assets/img/contact.png" class="img-fluid rounded-8 w-100">
             <div class="row position-absolute mb-3 bottom-0 start-0 end-0 z-10 border-top border-white fs-14 text-white">
@@ -116,7 +116,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6" data-aos="fade-down">
           <div>
             <h4 class="fs-14 fw-bold text-second2 text-center">مشخصات خودرا وارد کنید کارشناسان با شما تماس میگیرند</h4>
             <form class="max-w-377 mt-5 mx-auto">
