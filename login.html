@@ -16,6 +16,19 @@
   <!-- shape -->
   <img alt="shape" src="assets/img/Vector.png" class="img-fluid position-absolute top-0 end-0">
   <img alt="shape" src="assets/img/Ellipse.png" class="img-fluid position-absolute bottom-0 start-0">
+  <!-- go back -->
+  <a class="position-absolute start-0 m-sm-5 m-3">
+    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clip-path="url(#clip0_119_114)">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M9.41977 0.112617L0.049766 11.7497C-0.0102334 11.8999 -0.0102335 12.1376 0.049766 12.2127L9.41976 23.9374C9.47976 24.0125 9.66976 24.0125 9.78976 23.9374L10.9598 22.3983L3.62977 13.2263L23.7098 13.2263C24.2598 13.2263 24.7598 12.6131 24.7598 11.9124C24.7598 11.2242 24.2698 10.5985 23.7098 10.5985L3.80976 10.5985L10.9598 1.57664L9.78977 0.112617C9.66977 -0.0375398 9.47977 -0.0375398 9.41977 0.112617Z" fill="white"/>
+      </g>
+      <defs>
+      <clipPath id="clip0_119_114">
+      <rect width="24" height="24.76" fill="white" transform="translate(24.7598) rotate(90)"/>
+      </clipPath>
+      </defs>
+    </svg>
+  </a>
 
   <!-- main -->
   <main class="h-100 mt-5 mt-sm-0 pt-5 pt-sm-0">
@@ -39,8 +52,19 @@
           </svg>
           <input type="password" placeholder="رمز عبور" class="w-100 bg-transparent outline-none border-0 flex-grow-1 text-white">
          </div>
+         <div class="d-flex align-items-center gap-3 mt-3 position-relative">
+          <div class="rounded-4 h-48 border border-white d-flex align-items-center gap-2 fs-14 fw-bold">
+            <input type="password" placeholder="کد امنیتی" class="w-100 bg-transparent px-3 outline-none border-0 flex-grow-1 text-white">
+            <div class="w-76 h-100 flex-shrink-0 d-flex align-items-center justify-content-center fw-bold text-white border-end border-white text-center">55930</div>
+          </div>
+           <svg class="position-absolute cursor-pointer -left-40" width="33" height="38" viewBox="0 0 33 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M22.6644 8.41378C25.5384 10.0731 27.4972 12.6802 28.4276 15.5977L25.2692 16.444C24.5847 14.3283 23.163 12.3967 21.0644 11.1851C16.5558 8.58199 10.7859 10.128 8.18279 14.6367L7.93279 15.0697L8.3658 15.3197L10.3403 16.4597C10.3411 16.4601 10.3419 16.4606 10.3427 16.461L7.69411 17.127L7.68661 17.1289L7.67918 17.131L5.04445 17.8808C4.90029 17.9184 4.71741 17.8927 4.54688 17.7943C4.37514 17.6951 4.26104 17.5482 4.22229 17.4036L3.50122 14.7125L2.80211 12.1034C2.80135 12.1005 2.80061 12.0977 2.79989 12.0949C2.80629 12.0985 2.81285 12.1022 2.81958 12.106L4.74216 13.216L5.17517 13.466L5.42517 13.033C8.89284 7.02684 16.6088 4.9176 22.6644 8.41378Z" fill="white" stroke="#143960"/>
+            <path d="M10.0524 28.7674C7.17839 27.1081 5.21959 24.5009 4.28918 21.5835L7.44755 20.7372C8.13212 22.8528 9.55384 24.7845 11.6524 25.9961C16.161 28.5992 21.9309 27.0531 24.534 22.5445L24.784 22.1115L24.351 21.8615L22.3765 20.7215C22.3757 20.721 22.3749 20.7206 22.3741 20.7201L25.0227 20.0541L25.0302 20.0523L25.0376 20.0501L27.6723 19.3003C27.8165 19.2627 27.9994 19.2884 28.1699 19.3869C28.3417 19.486 28.4558 19.6329 28.4945 19.7776L29.2156 22.4686L29.9147 25.0778C29.9154 25.0806 29.9162 25.0834 29.9169 25.0862C29.9105 25.0827 29.9039 25.079 29.8972 25.0751L27.9746 23.9651L27.5416 23.7151L27.2916 24.1481C23.824 30.1543 16.108 32.2636 10.0524 28.7674Z" fill="white" stroke="#143960"/>
+            </svg>
+         </div>
          <input type="submit" value="ورود" class="bg-white rounded-4 text-main fw-bold w-100 h-48 mt-4 border-0 mb-3">
-         <a class="mb-0 text-white hover-white">فراموشی رمز عبور؟</a>
+         <a class="text-white hover-white">رمز عبور خود را فراموش کرده اید؟</a>
+         <a class="mt-2 text-white hover-white d-block">آیا هنوز ثبت نام نکرده اید؟</a>
         </form>
       </div>
     </section>

@@ -67,6 +67,10 @@ a {
     max-width: 304px;
     width: 100%;
 }
+.max-w-350{
+    max-width: 350px;
+    width: 100%;
+}
 .max-w-377{
     max-width: 377px;
     width: 100%;
@@ -79,8 +83,14 @@ a {
 .w-32 {
     width: 32px;
 }
+.w-40 {
+    width: 40px;
+}
 .w-48 {
     width: 48px;
+}
+.w-76 {
+    width: 76px;
 }
 .w-84 {
     width: 84px;
@@ -249,6 +259,10 @@ a {
 /* top */
 .-top-30{
     top: -30px;
+}
+/* left */
+.-left-40{
+    left: -40px;
 }
 /* swiper */
 .swiper-button-prev::after,
