@@ -154,6 +154,12 @@ a {
 .lh-28{
     line-height: 28px;
 }
+.lh-30{
+    line-height: 30px;
+}
+.lh-40{
+    line-height: 40px;
+}
 /* color */
 .text-main {
     color: #143960 !important;
@@ -187,7 +193,9 @@ a {
     box-shadow: 0px 4px 4px 0px #00000040;
 
 }
-
+.shadow-app{
+    box-shadow: 5px 20px 50px 0px #4A99D333;
+}
 .shadow-navigation {
     box-shadow: 0px 4px 16px 0px #00000014;
 }
@@ -242,6 +250,9 @@ a {
 .bg-gray {
     background-color: #BEC0B9;
 }
+.bg-gradient-gray{
+    background: linear-gradient( rgba(182, 193, 204, 0.71) -40.17%, rgba(20, 57, 96, 0) 75.91%), linear-gradient(0deg, #FFF, #FFF);
+}
 
 /* margin */
 .-ml-22 {
@@ -251,7 +262,9 @@ a {
 .-mr-22 {
     margin-right: -22px;
 }
-
+.-mt-67 {
+    margin-top: -67px;
+}
 /* transition */
 .transition {
     transition: all .4s;
@@ -463,9 +476,9 @@ footer {
 }
 footer img[alt='wave']{
     left: 0;
-  right: 0;
-  margin: auto;
-  top: -48px;
+    right: 0;
+    margin: auto;
+    top: -40px;
 }
 
 /* responsive */
