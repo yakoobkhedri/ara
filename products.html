@@ -13,6 +13,43 @@
 
 <body>
 
+  <!-- demo Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content rounded-20 pb-4">
+      <div class="modal-header border-0">
+        <button type="button" class="btn-close me-auto ms-0" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="row g-3 mx-0 fs-14">
+          <div class="col-md-6">
+           <input class="rounded-16 border h-64 w-100 d-block px-3 outline-none" placeholder="صنف یا صنعت">
+          </div>
+          <div class="col-md-6">
+           <input class="rounded-16 border h-64 w-100 d-block px-3 outline-none" placeholder="نام شرکت">
+          </div>
+          <div class="col-md-6">
+            <input class="rounded-16 border h-64 w-100 d-block px-3 outline-none" placeholder="بودجه">
+           </div>
+           <div class="col-md-6">
+            <input class="rounded-16 border h-64 w-100 d-block px-3 outline-none" placeholder="تعداد پرسنل">
+           </div>
+           <div class="col-12">
+            <input class="rounded-16 border h-64 w-100 d-block px-3 outline-none" placeholder="آدرس">
+           </div>
+          <div class="col-12">
+           <textarea rows="5" placeholder="شرح تقاضا" class="rounded-16 border w-100 d-block p-3 outline-none resize-none"></textarea>
+          </div>
+          <div class="col-12 mt-4">
+           <input type="submit" value="ثبت درخواست منو" class="text-white mx-auto d-block fs-14 h-48 w-170 fw-bold bg-success py-2 px-4 rounded-4 border-0">
+          </div>
+         </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
   <!-- header -->
 
   <header>
@@ -92,24 +129,30 @@
   <main>
 
     <!-- app -->
-    <section class="bg-gradient-gray py-5">
-      <div class="container my-5">
-        <h5 class="fs-18 text-center font-bold text-second2">نرم افزار جامع سازمانی ویدا</h5>
-        <p class="fw-bold text-dark text-justify lh-30 mt-4">
+    <section class="bg-gradient-gray py-5 position-relative">
+      <!-- shape -->
+       <img alt="shape" src="assets/img/2.png" class="img-fluid position-absolute bottom-0 start-0 mb-5">
+       <img alt="shape" src="assets/img/1 (2).png" class="img-fluid position-absolute top-0 end-0 mt-5">
+       <img alt="shape" src="assets/img/Group 73.png" class="img-fluid position-absolute top-0 start-0 mt-5">
+       <img alt="shape" src="assets/img/Group 73.png" class="img-fluid position-absolute top-50 end-0 mb-5 pb-5 z-0">
+      <!--  -->
+      <div class="container my-5 py-5">
+        <h5 class="fs-18 text-center font-bold text-second2" data-aos="fade-up">نرم افزار جامع سازمانی ویدا</h5>
+        <p class="fw-bold text-dark text-justify lh-30 mt-4" data-aos="fade-down">
           درک فرآیندهای یک کسب و کار معمولاً شامل مدل سازی فرآیندها و ارزیابی عوامل محیطی است که فرآیندها را در برگرفته و یا سبب ایجاد محدودیت در فرآیندها می‌شوند. مستندسازی فرآیندهای سازمان به مفهوم ثبت مستندات مرتبط با فرآیندها در قالب منابع مورد استفاده در فرآیندها، مدل‌سازی فرآیندها، محدودیت‌ها، اهداف، شاخص‌های اندازه‌‌گیری، مسئولیت‌ها و ارتباطات فرآیند با سایر فرآیندهای سازمان می‌باشند. گام اول در مدل سازی فرآیندها ثبت و مستندسازی فرآیندها در حوزه کارکردی بر اساس نمودار سازمانی و محصول / خدمات سازمان است. این امر به مفهوم یکپارچه‌سازی فرآیندهای سازمان می‌باشد. برای سازمان‌هایی که دارای تجربه کمتری در امور مدیریت فرآیندهای کسب و کار هستند، ممکن است برای اولین بار با موضوع مستندسازی فرآیندهای e2e مواجه شوند. سازمان‌های با بلوغ بالاتر که نسبت به شناسایی و درک فرآیندهای e2e در سازمان اقدام نموده اند، ممکن است که بیشتر بر روی عوامل محیطی، اختلافات جزئی و موارد استثناء در حوزه مدیریت فرآیندهای کسب و کار تمرکز کنند.
         </p>
         <div class="row g-4 mx-0 mt-5">
            <div class="col-lg-5">
             <div>
-              <h5 class="text-second2 font-bold fs-18">3 مرحله اساسی نرم افزار</h5>
-              <ol class="font-bold mb-0 pe-4 lh-40 mt-3">
+              <h5 class="text-second2 font-bold fs-18" data-aos="fade-up">3 مرحله اساسی نرم افزار</h5>
+              <ol class="font-bold mb-0 pe-4 lh-40 mt-3" data-aos="fade-down">
                 <li>اهداف مالی سازمان</li>
                 <li>کیفیت پیاده سازی فرآیندهای سازمانی</li>
                 <li>رضایت مشتری</li>
                 <li>نوآوری</li>
               </ol>
             </div>
-            <div class="rounded-10 bg-white shadow-app p-5 mt-5">
+            <div class="rounded-10 bg-white shadow-app p-5 mt-5 position-relative" data-aos="flip-up">
                <div class="mb-5 pb-5">
                 <div class="mb-5 pb-5">
                   <img alt="app" src="assets/img/1.png" class="img-fluid w-75 pb-5 mb-5 d-block mx-auto">
@@ -119,7 +162,7 @@
            </div>
            <div class="col-1"></div>
            <div class="col-lg-5">
-            <div class="rounded-10 bg-white shadow-app p-5 mt-2">
+            <div class="rounded-10 bg-white shadow-app p-5 mt-2" data-aos="flip-down">
               <div class="mb-5 pb-5">
                <div class="mb-5 pb-5">
                  <img alt="app" src="assets/img/3.png" class="img-fluid w-75 pb-5 mb-5 d-block mx-auto -mt-67">
@@ -130,7 +173,7 @@
            <br>
            <br>
            <br>
-           <div class="rounded-10 bg-white shadow-app p-5 mt-5">
+           <div class="rounded-10 bg-white shadow-app p-5 mt-5" data-aos="flip-up">
             <div class="mb-5 pb-5">
              <div class="mb-5 pb-5">
                <img alt="app" src="assets/img/2 20.png" class="img-fluid w-75 pb-5 mb-5 d-block mx-auto">
@@ -139,7 +182,7 @@
          </div>
            </div>
         </div>
-        <p class="fw-bold text-dark text-justify lh-30 mt-5 pt-4">
+        <p class="fw-bold text-dark text-justify lh-30 my-5 pt-4" data-aos="fade-up">
           درک فرآیندهای یک کسب و کار معمولاً شامل مدل سازی فرآیندها و ارزیابی عوامل محیطی است که فرآیندها را در برگرفته و یا سبب ایجاد محدودیت در فرآیندها می‌شوند. مستندسازی فرآیندهای سازمان به مفهوم ثبت مستندات مرتبط با فرآیندها در قالب منابع مورد استفاده در فرآیندها، مدل‌سازی فرآیندها، محدودیت‌ها، اهداف، شاخص‌های اندازه‌‌گیری، مسئولیت‌ها و ارتباطات فرآیند با سایر فرآیندهای سازمان می‌باشند. گام اول در مدل سازی فرآیندها ثبت و مستندسازی فرآیندها در حوزه کارکردی بر اساس نمودار سازمانی و محصول / خدمات سازمان است. این امر به مفهوم یکپارچه‌سازی فرآیندهای سازمان می‌باشد. برای سازمان‌هایی که دارای تجربه کمتری در امور مدیریت فرآیندهای کسب و کار هستند، ممکن است برای اولین بار با موضوع مستندسازی فرآیندهای e2e مواجه شوند. سازمان‌های با بلوغ بالاتر که نسبت به شناسایی و درک فرآیندهای e2e در سازمان اقدام نموده اند، 
 درک فرآیندهای یک کسب و کار معمولاً شامل مدل سازی فرآیندها و ارزیابی عوامل محیطی است که فرآیندها را در برگرفته و یا سبب ایجاد محدودیت در فرآیندها می‌شوند. مستندسازی فرآیندهای سازمان به مفهوم ثبت مستندات مرتبط با فرآیندها در قالب منابع مورد استفاده در فرآیندها، مدل‌سازی فرآیندها، محدودیت‌ها، اهداف، شاخص‌های اندازه‌‌گیری، مسئولیت‌ها و ارتباطات فرآیند با سایر فرآیندهای سازمان می‌باشند. گام اول در مدل سازی فرآیندها ثبت و مستندسازی فرآیندها در حوزه کارکردی بر اساس نمودار سازمانی و محصول / خدمات سازمان است. این امر به مفهوم یکپارچه‌سازی فرآیندهای سازمان می‌باشد. برای سازمان‌هایی که دارای تجربه کمتری در امور مدیریت فرآیندهای کسب و کار هستند، ممکن است برای اولین بار با موضوع مستندسازی فرآیندهای e2e مواجه شوند. سازمان‌های با بلوغ بالاتر که نسبت به شناسایی و درک فرآیندهای e2e در سازمان اقدام نموده اند، ممکن است که بیشتر بر روی عوامل محیطی، اختلافات جزئی و موارد استثناء در حوزه مدیریت فرآیندهای کسب و کار تمرکز کنند.
         </p>
@@ -148,7 +191,7 @@
 
     <!-- tabs -->
     <section id="tabs" class="py-5">
-      <div class="container my-5">
+      <div class="container my-5" data-aos="fade-down">
         <ul class="nav nav-pills font-bold mb-0 pe-0 bg-white mx-5 rounded-pill py-2 justify-content-center gap-5" id="pills-tab" role="tablist">
           <li class="nav-item h-100" role="presentation">
             <button class="nav-link text-dark rounded-pill h-100 w-104 active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">محصولات</button>
@@ -330,10 +373,10 @@
       <div class="container my-5">
        <div class="row align-items-center g-4 mx-0">
          <div class="col-lg-5">
-          <img alt="img" src="assets/img/Frame 1597883521.png" class="img-fluid mx-auto mx-lg-0 d-block">
+          <img alt="img" src="assets/img/Frame 1597883521.png" class="img-fluid mx-auto mx-lg-0 d-block" data-aos="fade-up">
          </div>
          <div class="col-lg-7">
-          <form class="row g-3 mx-0">
+          <form class="row g-3 mx-0" data-aos="fade-down">
            <div class="col-md-6">
             <input class="rounded-16 border h-64 w-100 d-block px-3 outline-none" placeholder="نام">
            </div>
@@ -349,6 +392,44 @@
           </form>
          </div>
        </div>
+      </div>
+    </section>
+
+    <!-- demo -->
+    <section class="bg-gray2 py-4">
+      <div class="container">
+       <div class="row align-items-center g-4 mx-0">
+        <div class="col-lg-6" data-aos="fade-down">
+          <h3 class="fs-24 font-bold text-dark">درخواست دمو فضای کار آرا</h3>
+          <div class="pt-4">
+            <a data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="rounded-4 bg-main d-flex align-items-center justify-content-center mt-5 w-284 h-48 text-white fw-bold fs-14">درخواست دمو</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img alt="demo" src="assets/img/Frame.png" class="img-fluid d-block mx-auto" data-aos="fade-up">
+        </div>
+       </div>
+      </div>
+    </section>
+
+    <!-- download -->
+    <section class="py-5 mb-5 position-relative">
+      <!-- shape -->
+       <img alt="shape" src="assets/img/3 (2).png" class="img-fluid position-absolute bottom-0 start-0 mb-5 pb-5">
+       <img alt="shape" src="assets/img/4.png" class="img-fluid position-absolute top-0 end-0 mt-5">
+      <!--  -->
+      <div class="container my-5 py-5">
+        <div class="row align-items-center g-4 mx-0 my-5 pb-5">
+          <div class="col-lg-5">
+            <div class="d-flex align-items-center gap-4" data-aos="fade-up">
+              <a><img alt="app" src="assets/img/appstore.png" class="img-fluid"></a>
+              <a><img alt="app" src="assets/img/googleplay.png" class="img-fluid"></a>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <img alt="app" src="assets/img/app.PNG" class="img-fluid d-block mx-auto" data-aos="fade-down">
+          </div>
+        </div>
       </div>
     </section>
 
