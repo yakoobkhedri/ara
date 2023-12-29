@@ -528,6 +528,9 @@ footer img[alt='wave']{
 .swiper-button-next1 {
     left: 65px;
 }
+.rounded-md-14{
+    border-radius: 14px!important;
+}
 }
 @media only screen and (max-width:576px) {
     .swiper.costumer{
