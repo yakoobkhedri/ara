@@ -245,6 +245,10 @@ a {
 .rounded-20{
     border-radius: 20px;
 }
+/* border */
+.border-main{
+    border: 1px solid #143960;
+}
 /* background */
 
 .bg-main {
@@ -290,9 +294,16 @@ a {
 .-top-30{
     top: -30px;
 }
+.-top-90{
+    top: -90px;
+}
 /* left */
 .-left-40{
     left: -40px;
+}
+/* bottom */
+.-bottom-81{
+    bottom: -81px;
 }
 /* tab */
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -530,6 +541,9 @@ footer img[alt='wave']{
 }
 .rounded-md-14{
     border-radius: 14px!important;
+}
+.max-w-md-100{
+    max-width: 100%;
 }
 }
 @media only screen and (max-width:576px) {
