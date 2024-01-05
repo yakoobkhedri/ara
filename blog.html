@@ -40,7 +40,25 @@
           <svg width="1" height="24" viewBox="0 0 1 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line x1="0.5" y1="0.386963" x2="0.499999" y2="23.6128" stroke="#898989" />
           </svg>
-          <li><a class="text-dark">خدمات</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark px-0 active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              خدمات
+            </a>
+            <ul class="dropdown-menu text-end">
+              <li><a class="dropdown-item d-flex align-items-center justify-content-between py-2" href="blog.html">
+                <p class="mb-0 fs-14 fw-bold">مقالات</p>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16.8 6.0001L10.8 12.0001L16.8 18.0001L15.6 20.4001L7.19995 12.0001L15.6 3.6001L16.8 6.0001Z" fill="#4D4D4F"/>
+                </svg>
+              </a></li>
+              <li><a class="dropdown-item d-flex align-items-center justify-content-between py-2" href="ticket-request.html">
+                <p class="mb-0 fs-14 fw-bold">درخواست تیکت</p>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16.8 6.0001L10.8 12.0001L16.8 18.0001L15.6 20.4001L7.19995 12.0001L15.6 3.6001L16.8 6.0001Z" fill="#4D4D4F"/>
+                </svg>
+              </a></li>
+            </ul>
+          </li>
           <svg width="1" height="24" viewBox="0 0 1 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line x1="0.5" y1="0.386963" x2="0.499999" y2="23.6128" stroke="#898989" />
           </svg>
@@ -70,17 +88,18 @@
         </div>
       </div>
       <!-- mobile menu -->
-      <div class="offcanvas offcanvas-start d-md-none" tabindex="-1" id="offcanvasExample"
+      <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="offcanvasExample"
         aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
           <ul
-            class="list-unstyled mb-0 pe-0 d-md-flex flex-column align-items-center justify-content-center gap-5 py-3 fw-bold">
+            class="list-unstyled mb-0 pe-0 d-lg-flex flex-column align-items-center justify-content-center gap-lg-5 py-3 fw-bold">
             <li class="mb-4"><a href="index.html" class="text-dark">صفحه اصلی</a></li>
             <li class="mb-4"><a href="products.html" class="text-dark">محصولات</a></li>
-            <li class="mb-4"><a class="text-dark">خدمات</a></li>
+            <li class="mb-4"><a href="blog.html" class="text-dark active">مقالات</a></li>
+            <li class="mb-4"><a href="ticket-request.html" class="text-dark">درخواست تیکت</a></li>
             <li class="mb-4"><a class="text-dark" href="contact.html">تماس با آرا</a></li>
             <li class="mb-4"><a class="text-dark" href="about.html">درباره آرا</a></li>
           </ul>

@@ -79,7 +79,9 @@ a {
 .w-2 {
     width: 2px;
 }
-
+.w-8 {
+    width: 8px;
+}
 .w-32 {
     width: 32px;
 }
@@ -125,6 +127,9 @@ a {
 }
 
 /* height */
+.h-8{
+    height: 8px;
+}
 .h-32 {
     height: 32px;
 }
@@ -148,6 +153,9 @@ a {
 }
 .h-100vh {
     height: 100vh;
+}
+.h-104 {
+    height: 104px;
 }
 .h-284 {
     height: 284px;
@@ -264,6 +272,9 @@ a {
 }
 .bg-green2{
      background: #56B6760A;
+}
+.bg-green3{
+    background-color: #56B676;
 }
 .bg-gray {
     background-color: #BEC0B9;
@@ -507,7 +518,7 @@ a:hover,a:hover p,a:hover svg,header ul a.active{
 /* footer */
 footer {
     background: #f9f9f9;
-    border: 1px solid #dfdfdf;
+    border: 1px solid #e8e8e8;
 }
 footer img[alt='wave']{
     left: 0;
