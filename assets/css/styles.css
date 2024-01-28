@@ -206,7 +206,9 @@ a {
 .text-black {
     color: #000000;
 }
-
+.text-gray{
+    color: #868686;
+}
 .text-green {
     color: #56B676;
 }
@@ -302,6 +304,9 @@ a {
 }
 .bg-gray2{
     background-color: #F9F9F9;
+}
+.bg-gray3{
+    background-color: #EFEFEF;
 }
 .bg-gradient-gray{
     background: linear-gradient( rgba(182, 193, 204, 0.71) -40.17%, rgba(20, 57, 96, 0) 75.91%), linear-gradient(0deg, #FFF, #FFF);
