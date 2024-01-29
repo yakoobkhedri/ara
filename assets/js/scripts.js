@@ -54,3 +54,17 @@ var costumer = new Swiper(".costumer", {
 
 // aos
 AOS.init();
+
+// accordion
+
+let accordionBtn=Array.from(document.getElementsByClassName('accordion-btn'));
+let accordionContent=Array.from(document.getElementsByClassName('accordion-content'));
+
+accordionBtn.forEach((item)=>{
+  item.addEventListener('click',function () {
+    accordionBtn.forEach((items)=>{items.classList.remove('active')});
+    accordionContent.forEach((items)=>{items.classList.remove('active')});
+    item.classList.add('active');
+    item.nextElementSibling.classList.add('active');
+  })
+})
